@@ -62,16 +62,16 @@ h1 {
 	font-size: 3.052em;
 }
 h2 {
-	font-size: 2.441em;
+	font-size: 1.5em;
 }
 h3 {
-	font-size: 1.953em;
+	font-size: 1.3em;
 }
 h4 {
-	font-size: 1.563em;
+	font-size: 1.2em;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: 1.1em;
 }
 strong,
 b {
@@ -125,6 +125,9 @@ blockquote {
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
+}
+.text-center {
+	text-align: center;
 }
 @media (max-width: 720px) {
 	body {
