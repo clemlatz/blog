@@ -77,11 +77,23 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<hr />
 					</div>
 					<slot />
+					<hr />
 					<p>
-						-- Clément Latzarus<br />
 						Un commentaire ? Une question ?<br />
-						N'hésitez pas à me <a href="https://clemlatz.dev/fr/contact">contacter</a> !
+						Utilisez
+							<a href="https://github.com/clemlatz/blog/issues">les issues Github</a>
+						ou le module ci-dessous !
 					</p>
+
+					<!-- Utterances (static comment) -->
+					<script src="https://utteranc.es/client.js"
+									repo="clemlatz/blog"
+									issue-term="og:title"
+									label="comment"
+									theme="preferred-color-scheme"
+									crossorigin="anonymous"
+									async>
+					</script>
 				</div>
 			</article>
 		</main>
