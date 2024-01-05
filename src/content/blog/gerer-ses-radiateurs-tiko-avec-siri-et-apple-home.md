@@ -3,6 +3,7 @@ title: Gérer ses radiateurs Tiko avec Siri et Apple Home
 description: Le chaînon manquant entre vos radiateurs Tiko et vos appareils Apple grâce à HomeBridge.
 pubDate: 2024-01-05
 heroImage: /homebridge-tiko/hero-image.png
+language: fr
 ---
 
 [Tiko](https://www.tiko.fr/) est une excellente solution pour programmer et gérer ses radiateurs électriques depuis son
