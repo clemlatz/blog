@@ -1,3 +1,5 @@
+# MERGED WITH https://github.com/clemlatz/clemlatz.dev
+
 # Astro Starter Kit: Blog
 
 ```sh
